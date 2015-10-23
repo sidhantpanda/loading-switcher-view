@@ -26,11 +26,11 @@ public class LoadingViewSwitcher extends RelativeLayout {
 
     private View childView;
 
-    private LoadingView layoutLoading;
+    private View layoutLoading;
 
-    private ErrorView layoutError;
+    private View layoutError;
 
-    int id_layout_loading, id_layout_error;
+    int id_layout_loading = -1, id_layout_error = -1;
 
     RelativeLayout thisLayout;
 
