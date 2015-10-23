@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoadingViewSwitcher">
+        <attr name="id_layout_loading" format="reference"/>
+        <attr name="id_layout_error" format="reference"/>
+    </declare-styleable>
+</resources>
